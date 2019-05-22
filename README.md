@@ -10,5 +10,5 @@ Run *java -jar build/libs/bunchTool.kt \<args\>* where args are arbitrary amount
 Works on Windows and \*NIX
 
 # Restrictions
-Paths shouldn't contain "/" in windows and "\" in linux
-Console should support **ANSI escape sequences** for colored output. In windows use **PowerShell**
+Paths shouldn't contain "/" in windows and "\\" in linux
+Console should support **ANSI escape sequences** for colored output. In Windows both cmd and PowerShell don't support it, so you can use ubuntu subsystem (win10) or git bash etc.
